@@ -15,7 +15,6 @@
 
     header {
       background-color: #FFE100;
-      padding: 0;
       text-align: center;
     }
 
@@ -32,9 +31,18 @@
       background-color: #CDCDCD;
     }
 
+    .network-wrapper {
+      margin: 2em auto;
+      width: 90%;
+      height: 600px;
+      border: 2px solid #CDCDCD;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
     iframe {
       width: 100%;
-      height: 90vh;
+      height: 100%;
       border: none;
     }
 
@@ -54,8 +62,11 @@
   </header>
 
   <main>
-    <!-- Embed the interactive network directly -->
-    <iframe src="https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/richirikken/2e2bbfd5d9bea45c5342f46dc671e82f/raw/03f7aab06128eb0a29249b1f7b851aae59cd0c0a/network-685f6a05-a05.gexf"></iframe>
+    <section class="network-wrapper">
+      <iframe src="https://ouestware.gitlab.io/retina/beta/#/graph?overview=false&url=https://gist.githubusercontent.com/richirikken/2e2bbfd5d9bea45c5342f46dc671e82f/raw/03f7aab06128eb0a29249b1f7b851aae59cd0c0a/network-685f6a05-a05.gexf"
+              title="Interactive Network Visualization">
+      </iframe>
+    </section>
   </main>
 
   <footer>
@@ -63,4 +74,3 @@
   </footer>
 </body>
 </html>
-
