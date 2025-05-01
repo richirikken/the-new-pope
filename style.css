@@ -13,21 +13,16 @@ header img {
 
 .nav-tabs {
   display: flex;
-  background-color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  border-bottom: 2px solid #CDCDCD;
+  justify-content: center; /* Center the nav links */
+  background-color: black; /* Black background behind the whole nav */
+  padding: 10px 0; /* Space above and below */
 }
 
 .nav-tabs a {
-  padding: 14px 20px;
-  display: inline-block;
-  color: #000;
+  color: white; /* White text for contrast */
   text-decoration: none;
+  margin: 0 15px; /* Space between links */
   font-weight: bold;
-  background-color: #CDCDCD;
-  border-right: 1px solid #fff;
-  transition: background 0.3s;
 }
 
 .nav-tabs a.active {
@@ -36,7 +31,7 @@ header img {
 }
 
 .nav-tabs a:hover {
-  background-color: #FFD700;
+  text-decoration: underline;
 }
 
 main {
