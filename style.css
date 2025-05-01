@@ -42,7 +42,10 @@ header img {
 main {
   padding: 20px;
   max-width: 1000px;
-  margin: auto;
+  margin: 40px auto;
+  background: #FFFFFF; /* solid white */
+  border-radius: 10px; /* smooth rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
 }
 
 footer {
