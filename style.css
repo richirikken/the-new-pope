@@ -1,57 +1,45 @@
 body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  background: #FFFFFF;
-  color: #000;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
 }
 
-header img {
-  width: 100%;
-  height: auto;
-  display: block;
+h1, h2 {
+    margin-top: 30px;
+    color: #333;
 }
 
-.nav-tabs {
-  display: flex;
-  background-color: #FFFFFF;
-  padding: 0;
-  margin: 0;
-  border-bottom: 2px solid #CDCDCD;
+ul {
+    padding-left: 20px;
 }
 
-.nav-tabs a {
-  padding: 14px 20px;
-  display: inline-block;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #CDCDCD;
-  border-right: 1px solid #fff;
-  transition: background 0.3s;
+a {
+    text-decoration: none;
+    color: #0056b3;
 }
 
-.nav-tabs a.active {
-  background-color: #FF0000;
-  color: #fff;
+a:hover {
+    text-decoration: underline;
 }
 
-.nav-tabs a:hover {
-  background-color: #FFD700;
+img {
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
-main {
-  padding: 20px;
-  max-width: 1000px;
-  margin: 40px auto;
-  background: #FFFFFF; /* solid white */
-  border-radius: 10px; /* smooth rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+p, li {
+    margin-bottom: 15px;
 }
 
 footer {
-  background: #FFE100;
-  text-align: center;
-  padding: 10px;
-  font-size: 14px;
-  color: #000;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Optional: add some padding between sections */
+section {
+    margin-bottom: 40px;
 }
