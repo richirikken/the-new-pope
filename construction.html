@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Consecration Network Construction – The New Pope</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="vatican.jpg" alt="Vatican Header">
+</header>
+
+<nav class="nav-tabs">
+  <a href="index.html">Conclave Network</a>
+  <a href="predictions.html">Predictions and Indicators</a>
+  <a href="statistics.html">Conclave Statistics</a>
+  <a href="global.html">Global Bishop Network</a>
+  <a href="about.html">About</a>
+  <a href="construction.html" class="active">Consecration Network Construction</a> <!-- New Tab -->
+</nav>
+
+<main>
+  <h2>How the Bishop Consecration Network Was Built</h2>
+  <p>This network visualizes relationships between Catholic bishops based on consecrations.</p>
+  <p>I scraped data from <a href="https://www.catholic-hierarchy.org/">Catholic-Hierarchy.org</a>, collecting information on thousands of living bishops worldwide.</p>
+  <p>Each bishop page was processed to extract who consecrated whom, including principal consecrators and co-consecrators.</p>
+  <p>A directed network was created where nodes represent bishops and edges represent consecrations.</p>
+  <p>In addition, bishops who shared consecrators were connected, forming a second type of link based on common lineage.</p>
+  <p>All links and nodes were filtered to ensure only verified bishops were included, removing vacancies and missing data.</p>
+  <p>Degree, betweenness, closeness, and PageRank indicators were calculated for each bishop to assess influence within the global hierarchy.</p>
+  <p>Labels (bishop names) and extra metadata like Wikidata IDs were added to enrich the visualization.</p>
+  <p>To focus the display, I kept only the largest connected group of bishops and filtered out those with very few connections.</p>
+  <p>The resulting graph offers insights into how Catholic leadership is interconnected across countries and generations.</p>
+
+  <h3>Example</h3>
+  <p>If Bishop A consecrated Bishop B, an arrow is drawn from A to B.<br>
+     If Bishop C and Bishop D were both consecrated by the same bishop, they are also connected by a shared consecration link.</p>
+</main>
+
+<footer>
+  <p>© 2025 The New Pope Project</p>
+</footer>
+
+</body>
+</html>
