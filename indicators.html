@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <title>Construction of Indicators – The New Pope</title>
   <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
   <meta name="description" content="Data-driven insights into the 2025 Papal Conclave: interactive cardinal network, betting predictions, and consecration statistics.">
-<meta name="keywords" content="Pope, Conclave 2025, Catholic Church, Cardinals, Election, Network, Data Visualization, Catholic-Hierarchy">
-<meta name="author" content="Richirikken">
-
+  <meta name="keywords" content="Pope, Conclave 2025, Catholic Church, Cardinals, Election, Network, Data Visualization, Catholic-Hierarchy">
+  <meta name="author" content="Richirikken">
 </head>
+
 <body>
 
 <header>
@@ -20,7 +20,7 @@
   <a href="index.html" title="Explore the 2025 Conclave cardinal connections">Conclave Network</a>
   <a href="predictions.html" title="See predictions based on betting odds and influence metrics">Predictions and Indicators</a>
   <a href="statistics.html" title="Explore network statistics and data visualizations">Conclave Statistics</a>
-  <a href="global.html" title="Global consecration network of Catholic bishops">Global Bishop Network</a>
+  <a href="global.html" title="Global Bishop Network">Global Bishop Network</a>
   <a href="construction.html" title="How the consecration network was constructed">Consecration Network Construction</a>
   <a href="indicators.html" title="How indicators were built from network data and odds">Construction of Indicators</a>
   <a href="about.html" title="About this project and data sources">About</a>
@@ -28,50 +28,45 @@
 
 <main>
 
-  <div style="text-align: center; margin: 30px 0; font-style: italic; font-size: 1.2em;">
+<div style="text-align: center; margin: 30px 0; font-style: italic; font-size: 1.2em;">
   “Conclaves are shaped long before the doors of the Sistine Chapel are closed, by networks of friendships, alliances, and shared visions.”<br>
   <span style="display: block; margin-top: 10px; font-weight: bold;">— Austin Ivereigh, <em>The Great Reformer</em> (2014)</span>
 </div>
 
-   <h2>Difficultiy of prediction</h2>
+<h2>Difficulty of Prediction</h2>
 
-<p><em>"Chi entra papa in conclave ne esce cardinale."</em> — This Italian proverb ("He who enters the conclave as pope exits as cardinal") reflects the historical unpredictability of papal elections. It reminds observers that early favorites often fail to secure the papacy.</p>
+<p><em>"Chi entra papa in conclave ne esce cardinale."</em> — This Italian proverb ("He who enters the conclave as pope exits as cardinal") reflects the historical unpredictability of papal elections. Early favorites often fail to secure the papacy.</p>
 
 <p>For example, during the 2013 conclave, bookmakers did not list Jorge Mario Bergoglio (later Pope Francis) among the top six most likely candidates (<em>O'Connell, 2019</em>). His election was seen as a surprise to many external commentators.</p>
 
-<p>However, retrospective social network analyses suggest a different story. Five years after his election, a first exploratory analysis of (historic) episcopal consecration networks showed that Bergoglio occupied a notably strong position within the global Catholic network 2020, probably he had this hidden centrality beyond public visibility already before his election to pope (historic networks are however difficult to reconstruct).</p>
+<p>However, retrospective social network analyses suggest a different story. Five years after his election, an exploratory analysis of episcopal consecration networks showed Bergoglio occupying a strong hidden position in the global Catholic network — probably already before his papal election (even though historic reconstructions remain difficult).</p>
 
-<p>As social network theory emphasizes, "actors who are better connected or occupy more strategic positions often have access to greater resources, information, and influence" (<em>Borgatti & Everett, 2006</em>). Thus, while betting markets focus on public reputation, internal network dynamics may be a decisive factor in leadership selection.</p>
+<p>Social network theory emphasizes that "actors who are better connected or occupy more strategic positions often have access to greater resources, information, and influence" (<em>Borgatti & Everett, 2006</em>). Thus, internal network dynamics may decisively influence leadership selection.</p>
 
-
-  
-  <h2>Construction of Network Indicators</h2>
-  <p>This section describes the indicators used to analyze the cardinal networks during the 2025 Conclave.</p>
+<h2>Construction of Network Indicators</h2>
+<p>This section describes the indicators used to analyze the cardinal networks during the 2025 Conclave.</p>
 
 <h3>Conclave 2025 Network Indicators</h3>
 <ul>
   <li><strong>Number of ties</strong> – The number of direct consecration links to or from a cardinal within the conclave network.</li>
-  <li><strong>Betweenness</strong> – Measures how often a cardinal appears on the shortest paths between other cardinals.</li>
-  <li><strong>PageRank</strong> – Evaluates the overall influence of a cardinal based on connections with influential others.</li>
+  <li><strong>Betweenness</strong> – How often a cardinal appears on the shortest paths between other cardinals.</li>
+  <li><strong>PageRank</strong> – Influence based on connections with other influential cardinals.</li>
 </ul>
 
 <h3>All Bishops Network Indicators</h3>
 <ul>
   <li><strong>Number of ties</strong> – Total consecration links in the global bishops network.</li>
-  <li><strong>Betweenness</strong> – Cardinal's strategic importance across the entire worldwide bishop network.</li>
-  <li><strong>PageRank</strong> – Influence measurement across the full episcopal hierarchy.</li>
+  <li><strong>Betweenness</strong> – Cardinal's strategic position across the worldwide episcopal network.</li>
+  <li><strong>PageRank</strong> – Influence within the broader global Catholic hierarchy.</li>
 </ul>
 
 <h3>Other Indicators</h3>
 <ul>
-  <li><strong>Betting probability</strong> – The cardinal's chance of election derived from public betting markets. 
-    Odds data was sourced from 
-    <a href="https://www.oddschecker.com/insight/specials/20250421-next-pope-odds-who-is-favourite-to-succeed-francis" target="_blank">
-      OddsChecker (accessed on April 29, 2025)
-    </a>.
+  <li><strong>Betting probability</strong> – Chance of election derived from public betting markets, sourced from 
+    <a href="https://www.oddschecker.com/insight/specials/20250421-next-pope-odds-who-is-favourite-to-succeed-francis" target="_blank">OddsChecker (April 29, 2025)</a>.
   </li>
-  <li><strong>Reputation</strong> – Number of awards received, based on Wikidata entries.</li>
-  <li><strong>Expert opinion</strong> – Number of expert mentions as potential pope candidates across selected media sources:
+  <li><strong>Reputation</strong> – Number of awards received according to Wikidata entries.</li>
+  <li><strong>Expert opinion</strong> – Number of expert mentions across major media sources:
     <a href="https://www.detroitcatholic.com" target="_blank">Detroit Catholic</a>,
     <a href="https://www.independent.co.uk" target="_blank">The Independent</a>,
     <a href="https://abcnews.go.com" target="_blank">ABC News</a>,
@@ -83,31 +78,25 @@
     <a href="https://www.domradio.de" target="_blank">Domradio</a>.
   </li>
 </ul>
-  
+
+<h3>Correlation Matrix</h3>
+
 <div style="position: relative; width: 100%; padding-bottom: 120%; height: 0;">
   <iframe title="Correlation Matrix" aria-label="Table" id="datawrapper-chart-vunJ3" src="https://datawrapper.dwcdn.net/vunJ3/1/" scrolling="no" frameborder="0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" data-external="1"></iframe>
 </div>
-  
-   <ul>
-        <li>
-            <strong>Network centrality</strong> measures such as number of ties, betweenness, and pagerank are all <strong>highly interrelated</strong>. This is expected in a tightly connected network.
-        </li>
-        <li>
-            <strong>Betting probability</strong> and <strong>reputation</strong> are moderately tied to centrality. More central actors are perceived as more reputable and are more frequently bet on.
-        </li>
-        <li>
-            <strong>Pagerank among all bishops</strong> and <strong>number of ties among all bishops</strong> are <strong>almost interchangeable</strong>. Their strong correlation suggests they capture very similar network roles.
-        </li>
-    </ul>
 
-    <h2>Interpretation</h2>
-    <p>
-        Actors who have more connections tend to occupy central positions as brokers in the network (high betweenness). Those central figures also tend to have higher reputation and are bet on more often.
-    </p>
+<h3>Key Findings</h3>
+<ul>
+  <li><strong>Network centrality</strong> measures like ties, betweenness, and PageRank are highly interrelated. This reflects a tightly connected conclave network.</li>
+  <li><strong>Betting probability</strong> and <strong>reputation</strong> moderately correlate with centrality, suggesting that more central figures enjoy greater visibility and expectations.</li>
+  <li><strong>Pagerank among all bishops</strong> and <strong>number of ties among all bishops</strong> are nearly interchangeable in capturing global influence.</li>
+</ul>
 
-    <p>
-        While most centrality measures overlap strongly, Pagerank captures slightly different aspects compared to simple tie counts or betweenness, showing moderate rather than very high correlations with others.
-    </p>
+<h2>Interpretation</h2>
+
+<p>Cardinals with more connections occupy more central network positions, which leads to higher reputation and perceived electability.</p>
+
+<p>While most network measures overlap strongly, Pagerank captures slightly distinct aspects of influence compared to simple tie counts or betweenness.</p>
 
 </main>
 
