@@ -46,8 +46,8 @@
   <p>I scraped data from <a href="https://www.catholic-hierarchy.org/">Catholic-Hierarchy.org</a>, collecting information on thousands of living bishops worldwide.</p>
   <p>Each bishop page was processed to extract who consecrated whom, including principal consecrators and co-consecrators.</p>
   <p>A directed network was created where nodes represent bishops and edges represent consecrations.</p>
-  <p>In addition, bishops who shared consecrators were connected, forming a second type of link based on common lineage.</p>
-  <p>All links and nodes were filtered to ensure only verified bishops were included, removing vacancies and missing data.</p>
+  <p>In addition, bishops who were the (co-)consecrators of the same bishop were connected, forming a second type of link based on common lineage.</p>
+  <p>All links and nodes were filtered to ensure only <a href="https://www.catholic-hierarchy.org/bishop/ll.html" target="_blank">living bishops</a> were included.</p>
   <p>Degree, betweenness, closeness, and PageRank indicators were calculated for each bishop to assess influence within the global hierarchy.</p>
   <p>Labels (bishop names) and extra metadata like Wikidata IDs were added to enrich the visualization.</p>
   <p>To focus the display, I kept only the largest connected group of bishops and filtered out those with very few connections.</p>
