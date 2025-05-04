@@ -22,7 +22,7 @@ This repository hosts:
 
 Visit the interactive project site:
 
-> [https://richirikken.github.io/the-new-pope/](https://richirikken.github.io/the-new-pope/)
+> [https://www.the-new-pope.org](https://www.the-new-pope.org)
 
 Explore:
 - Conclave 2025 Cardinal Network
