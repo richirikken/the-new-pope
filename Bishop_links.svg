@@ -247,13 +247,17 @@
   <text
      xml:space="preserve"
      style="font-size:48px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
-     x="196.27678"
-     y="86.455551"
+     x="94.458595"
+     y="57.364639"
      id="text122"><tspan
        sodipodi:role="line"
        id="tspan122"
-       x="196.27678"
-       y="86.455551">Principal          Consecrator</tspan></text>
+       x="94.458595"
+       y="57.364639">Principal</tspan><tspan
+       sodipodi:role="line"
+       x="94.458595"
+       y="117.36464"
+       id="tspan125">Consecrator</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:48px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;stroke-width:0.994659"
