@@ -29,23 +29,29 @@ header img {
   text-decoration: none;
   font-weight: bold;
   padding: 5px 0;
+  overflow: hidden;
 }
 
-/* Fancy Underline Effect */
+/* Underline Setup */
 .nav-tabs a::after {
   content: '';
   position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 0%;
+  left: 50%;
+  bottom: 0;
+  width: 0;
   height: 2px;
-  background-color: #FFE100; /* Yellow underline */
-  transition: width 0.3s ease;
+  background-color: #FFE100; /* Yellow */
+  transition: all 0.4s ease;
+  opacity: 0;
+  transform: translateX(-50%);
 }
 
+/* Hover Animation */
 .nav-tabs a:hover::after {
   width: 100%;
+  opacity: 1;
 }
+
 
 /* Active Tab Highlight */
 .nav-tabs a.active {
