@@ -1,3 +1,4 @@
+/* Global Styles */
 body {
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
@@ -5,44 +6,66 @@ body {
   color: #000;
 }
 
+/* Header */
 header img {
   width: 100%;
   height: auto;
   display: block;
 }
 
+/* Navigation Bar */
 .nav-tabs {
   display: flex;
-  justify-content: center; /* Center the nav links */
-  background-color: black; /* Black background behind the whole nav */
-  padding: 10px 0; /* Space above and below */
+  justify-content: center;
+  background-color: black;
+  padding: 10px 0;
 }
 
 .nav-tabs a {
-  color: white; /* White text for contrast */
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: white;
   text-decoration: none;
-  margin: 0 15px; /* Space between links */
   font-weight: bold;
+  padding: 5px 0;
 }
 
+/* Fancy Underline Effect */
+.nav-tabs a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0%;
+  height: 2px;
+  background-color: #FFE100; /* Yellow underline */
+  transition: width 0.3s ease;
+}
+
+.nav-tabs a:hover::after {
+  width: 100%;
+}
+
+/* Active Tab Highlight */
 .nav-tabs a.active {
   background-color: #FF0000;
   color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.nav-tabs a:hover {
-  text-decoration: underline;
-}
-
+/* Main Content */
 main {
   padding: 20px;
   max-width: 1000px;
   margin: 40px auto;
-  background: #FFFFFF; /* solid white */
-  border-radius: 10px; /* smooth rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* soft shadow */
+  background: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Footer */
 footer {
   background: #FFE100;
   text-align: center;
@@ -51,10 +74,11 @@ footer {
   color: #000;
 }
 
+/* Responsive iframe Container */
 .iframe-container {
   position: relative;
   width: 100%;
-  padding-bottom: 270%; /* Controls the height; adjust if needed */
+  padding-bottom: 270%; /* Adjust for correct height */
   height: 0;
   overflow: hidden;
 }
@@ -66,4 +90,3 @@ footer {
   width: 100%;
   height: 100%;
 }
-
