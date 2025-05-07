@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.the-new-pope.org/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/predictions.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/tracking.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/statistics.html</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/global.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/construction.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/indicators.html</loc>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.the-new-pope.org/about.html</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
