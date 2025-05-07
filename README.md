@@ -13,6 +13,7 @@ This repository hosts:
 - **Interactive network graphs** of Catholic bishops and cardinals
 - **Statistical indicators** like centrality measures, PageRank, and betweenness
 - **Predictions** based on **betting odds** and **reputation indices**
+- **Tracking Betting odds** daily tracking and weighting
 - **Global consecration network** of bishops worldwide
 - **Data visualizations** via **modern, browser-based network explorers** and **correlation matrix analysis**
 
