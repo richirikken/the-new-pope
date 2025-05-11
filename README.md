@@ -59,6 +59,11 @@ Explore:
 - [Oddschecker: Next Pope Odds (as of April 29, 2025)](https://www.oddschecker.com/insight/specials/20250421-next-pope-odds-who-is-favourite-to-succeed-francis)
 - Public biographical data and sources under open licenses
 
+## Data Avaiablilty
+
+Data can be found her, please cite:
+Heidler, R. (2025). The New Pope: Data Science Analysis of the 2025 Papal Conclave [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15383307
+
 ---
 
 ## 🛠️ Tools and Technologies Used
