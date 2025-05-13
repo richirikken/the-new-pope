@@ -71,21 +71,55 @@
   <div style="margin-top: 30px; text-align: center;">
   <img src="Bishop_links.svg" alt="Bishop Links Legend" style="max-width: 290px; width: 100%; height: auto;">
 </div>
+<section style="margin-top: 40px; padding: 20px; background: #f8f8f8; border-radius: 8px;">
+  <h2>Parallel Research: Mapping Influence in the College of Cardinals</h2>
 
+  <p>
+    Shortly after this project went online (1. May), a <strong>separate but parallel study</strong> by researchers at Bocconi University – 
+    <a href="https://www.unibocconi.it/en/news/network-conclave" target="_blank">“In the Network of the Conclave”</a> – was published by 
+    Giuseppe Soda, Alessandro Iorio, and Leonardo Rizzo (first mention to
+    my knowledge 7th May) . Their approach also applies social network analysis to explore influence within 
+    the College of Cardinals and the mechanisms behind papal elections.
+  </p>
+
+  <p>
+    While their goal aligns with this project—highlighting hidden structures of ecclesiastical power—there are important 
+    <strong>methodological differences</strong>:
+    <ul>
+      <li>This project includes <em>co-consecrator ties</em>, which are omitted in the Bocconi model.</li>
+      <li>Their analysis incorporates <em>curial co-memberships</em> and <em>informal relationships</em> based on journalistic sources.</li>
+      <li>They use eigenvector instead of (somehow similar) page rank as indicator.</li>
+      <li>They confine the analysis to the conclave network and don't analysis the complete bishops network.</li>
+    </ul>
+  </p>
+
+  <p>
+    Interestingly, <a href="https://www.catholic-hierarchy.org/bishop/bprevost.html" target="_blank">Robert Prevost</a> ranks highest in 
+  one of three indicators,  their “status” metric — an indicator based on eigenvector centrality within their custom-built model. While this differs from the 
+    consecration-based network shown here, it underscores his visibility and strategic placement whem constructing the network the way they did.
+  </p>
+
+  <p>
+    Unfortunately, the Bocconi team has <strong>not yet made their dataset public</strong>, once their underlying data is released it is possible to compare in mored detail.
+  </p>
+
+  <p>
+    Still, the appearance of two independent network studies on the papal conclave underscores the value of using 
+    <strong>network science to better understand one of the most opaque elections in the world</strong>. Both projects offer 
+    complementary lenses—each limited, but together enriching the view.
+  </p>
+</section>
+  
 <h2>A Surprise Election: <a href="https://www.catholic-hierarchy.org/bishop/bprevost.html" target="_blank">Robert Francis Prevost</a></h2>
 
 <p>
   One of the biggest surprises of the 2025 Conclave by all indicators was the election of 
   <a href="https://www.catholic-hierarchy.org/bishop/bprevost.html" target="_blank">Robert Francis Prevost</a> as the new Pope. 
   In the <strong>Conclave network</strong>, Prevost was <em>not part of the largest main component</em> — 
-  he was relatively isolated compared to the most central cardinals.
+  he was relatively isolated compared to the most central cardinals in the consecration network.
   However, he can be found in the <strong><a href="global.html">Global Bishops Network</a></strong>. 
 </p>
 
-<p>
-  This outcome highlights the intrinsic dynamic of conclave elections: 
-  beyond formal structures or public predictions, the decision-making process among the cardinals often follows its own, sometimes surprising logic. If available, we will include voting behaviour in the analysis.
-</p>
 
     <h2>Scientific Use File</h2>
   <p>
